@@ -1,0 +1,33 @@
+/*   
+    text-shadow
+    box-shadow
+*/
+
+h1 {
+    text-shadow : 1px 1px 10px red ;
+}
+.box {
+    width : 200px;
+    height : 100px;
+    background : blue;
+    margin : 20px;
+    box-shadow : 3px 5px 5px green ;
+}
+    
+    
+/*   You  can also use  following online websites.     */
+/* https://css3gen.com/text-shadow/       ===   Online text-shadow generator  */
+/* https://www.cssmatic.com/box-shadow    ===   Online box-shadow generator  */
+    
+.box:hover {
+    /* link from (CSSmatic)   */
+    -webkit-box-shadow: 10px 0px 5px 52px rgba(16,168,97,1);
+    -moz-box-shadow: 10px 0px 5px 52px rgba(16,168,97,1);
+    box-shadow: 10px 0px 5px 52px rgba(16,168,97,1);
+}
+
+
+/*  Autoprefixer CSS online ===  to add desired vendor prefixes and remove unnecessary in your CSS.	*/
+
+
+    
