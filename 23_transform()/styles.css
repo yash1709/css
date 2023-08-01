@@ -1,0 +1,17 @@
+/*  transform : translate() , rotate() , scale() , skew()  */ 
+
+
+div {
+    width : 150px;
+    height : 150px;
+    display : inline-block;
+}
+.one {
+    background : red;
+}
+.two {
+    background : green;
+}
+.three {
+    background : blue;
+}

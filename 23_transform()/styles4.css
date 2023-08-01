@@ -1,0 +1,20 @@
+/* skew() */
+div {
+    width : 150px;
+    height : 150px;
+    display : inline-block;
+}
+.one {
+    background : red;
+    transform : skewX(40deg);  
+}
+.two {
+    background : green;
+    transform : skew(-20deg);
+}
+.three {
+    background : blue; 
+    transform : skew(60deg , -20deg);
+}
+    
+    

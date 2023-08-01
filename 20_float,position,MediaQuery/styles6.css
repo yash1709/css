@@ -1,0 +1,53 @@
+/* Media Queries
+    Responsive design
+    Styles on Elements on Differenet screen Sizes
+    min-width: --- starting from
+    max-width: --- up to
+    MOBILE FIRST
+*/ 
+
+body{
+    background: yellow;
+}
+.banner{
+    background: blue;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;                  
+}
+
+
+@media screen and (min-width: 576px) {
+    body{
+       background: red;
+    }
+    .banner{
+       background: yellow;
+       border-radius: 20px;
+    }
+    h1{
+       color: black;
+       font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 776px) {          
+    body{
+       background: green;
+    }
+    .banner{
+       background: blue;
+    }
+    h1{
+       color: white;
+       font-size: 60px;
+       /* text-align: right; */
+       font-family: verdana;
+    }
+}
+
+
+/* Similarly,  we can use max-width.  */

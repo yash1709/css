@@ -1,0 +1,33 @@
+/*  Background Gradients    */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: orange;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner{
+    background: url("./img/folder-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9)),
+           url("./img/folder-img.png")  center/contain  no-repeat  fixed ;
+}
+
+
+/* 
+    *** You can also search on for linear-gradient google. 
+    [ css linear gradient generator by ColorZilla.com ] 
+*/

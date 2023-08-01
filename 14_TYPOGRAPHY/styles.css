@@ -1,0 +1,26 @@
+/* font-size, font-family, Google fonts, font-weight, font-style, text-align, text-indent */
+
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+
+/*  Search google fonts on chrome and get a link for which font u will want to use.
+    Just paste the google font link in meta tag.   
+*/
+
+.subheading{
+   font-size: medium;
+} 
+.one{
+   font-weight: bold;
+   font-style: italic;
+}
+.two{
+   font-weight: bolder;
+   font-style: normal;
+}        
+
+.one{
+  text-indent: 250px ;
+}     

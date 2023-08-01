@@ -1,0 +1,20 @@
+/* rotate()  */
+div {
+    width : 150px;
+    height : 150px;
+    display : inline-block;
+}
+.one {
+    background : red;
+    /*    transform : rotate(340deg);    */ 
+}
+.two {
+    background : green;
+    transform : rotateZ(135deg);
+    transform : rotate(60deg);
+}
+.three {
+    background : blue;
+    /*     transform : rotateX(90deg);     */ 
+    transform : rotateY(60deg);
+}

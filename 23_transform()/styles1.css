@@ -1,0 +1,20 @@
+/* translate() */
+
+div {
+    width : 150px;
+    height : 150px;
+    display : inline-block;
+}
+.one {
+    background : red;
+    transform : translateX(50%);
+}
+.two {
+    background : green;
+    transform : translateX(30px);
+}
+.three {
+    background : blue;
+    /*   transform : translateX(75px);   */
+    transform : translate(200px , 300px);
+}

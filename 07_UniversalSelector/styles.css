@@ -1,0 +1,6 @@
+/* Universal Selector */
+
+/*  Universal Selector can be started by [ * ] mark.  */
+*{
+    color: blue;
+}

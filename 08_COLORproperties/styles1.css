@@ -1,0 +1,20 @@
+ /* RGB : RED GREEN BLUE 0-255 */
+ /* 
+    RED :  rgb(255,0,0)
+    GREEN :  rgb(0,255,0)
+    BLUE :  rgb(0,0,255)
+
+    WHITE :  rgb(255,255,255)
+    BLACK :  rgb(0,0,0)
+ */
+#first{                                         
+    color: rgb(255,0,0);                       
+    background-color: rgb(0,0,0)              
+}
+#second{                                          
+    color: rgb(255,255,255);                     
+    background-color: rgb(0,0,0)              
+}
+body{
+    background: rgb(100,34,210);
+}

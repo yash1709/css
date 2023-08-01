@@ -1,0 +1,23 @@
+ /* CSS BOX Model (PADDING, MARGIN, BORDER) */
+
+h1{
+    background: red;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    /* border-style: solid;
+    border-width: 10px;
+    border-color: green; */
+    border-bottom-style : dashed;
+}
+p{
+    background: blue;
+    margin-top: 0;
+   /* border: 15px solid yellow;
+   padding: 50px;
+   padding: 30px 60px;
+   padding: 20px 40px 60px 10px; */
+} 

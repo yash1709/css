@@ -1,0 +1,7 @@
+/* INLINE ELEMENTS  */
+a{
+    font-size: 60px;
+    background: red;
+    margin: 25px;
+    display: inline-block;
+}

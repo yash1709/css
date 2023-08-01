@@ -1,0 +1,24 @@
+ /* float, clear
+    position : static, relative, absolute, fixed
+    media- queries
+    z- index
+    : :before and : :after pseudo elements
+*/
+
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hiddden;
+}
+
+.one{
+    float: right;
+    margin-left: 50px;
+}
+.two{
+    float: left;
+    height: 300px;
+}
+p{
+  clear: both;
+}

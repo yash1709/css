@@ -1,0 +1,16 @@
+/* CLASS SELECTORS */
+.red{
+    color: red;
+    background: black;
+}
+
+.green{
+    color: green;
+    background: grey;
+}
+
+
+/* id */
+#title{                                          
+    font-size: 40px;
+}

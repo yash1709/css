@@ -1,0 +1,33 @@
+/*   ( download images from chrome ) */
+/* www.pexels.com    pe se image download krna  */
+div{
+    height: 400px;
+    color: red;
+}
+.big-img{
+    background: url("./big.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.small-img{
+    background: url("./small.jpg");
+    /* background-repeat: (repeat, no-repeat, repeat-x, repeat-y, space, round, etc); */
+    background-repeat: no-repeat;
+    /* background-size: (cover, contain); */
+    /* background-position: (center, bottom, left, right, top); */
+    background-position: center;
+    /* background-position: 20% 50% (100% 100%); */
+}
+.folder-img{
+    background: url("./img/folder-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+/*  Last Rule Order */
+/*  Background Size */
+/*  Background Position */

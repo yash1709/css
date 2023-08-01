@@ -1,0 +1,13 @@
+ /* RGBA 0-1 opacity/trasparency */ 
+ /* [0-1] is the opacity, where 0 for white color and 1 for black color. Opacity means the Tranparency.*/            
+ #first{                                        
+    color: rgb(255,0,0);                         
+    background-color: rgba(0,0,0, 0.75)   
+}
+#second{                                        
+    color: rgb(255,255,0);                         
+    background-color: rgba(0,0,0, 0.25)   
+}
+body{
+    background: rgba(100,100,100,0.45);
+}

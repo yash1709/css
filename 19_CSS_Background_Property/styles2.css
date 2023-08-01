@@ -1,0 +1,36 @@
+/*  Background Attachment   */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: green;
+    font-size: 60px;
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.big-img{
+    background: url("./big.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.small-img{
+    background: url("./img/folder-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* attachment */
+    background-attachment: fixed;                          
+}
+.folder-img{
+    background: url("./big.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

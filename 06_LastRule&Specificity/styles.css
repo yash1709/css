@@ -1,0 +1,36 @@
+/* LAST RULE & SPECIFICITY */
+p{
+    color: blue;
+}
+
+p{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    color: yellow;
+}
+
+
+/* SPECIFICITY */
+.red{
+    color: red;
+}
+
+p{
+    color: blue;
+}

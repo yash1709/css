@@ -1,0 +1,20 @@
+ /* HSL :
+    HEX values #RRGGBB
+    123456789 A(10) B(11) C(12) D(13) E(14) F(15)             <!____ F is for MAXIMUM ____>
+        10 11 12 13 14 15
+        #FF0000 - RED
+        #00FF00 - GREEN
+        #000    - BLACK
+        #fff    - WHITE
+*/
+
+/*  Use the website < coolors.com > . */
+
+h2{
+    color: #5454ff;
+    background: #000;
+}
+#first{                                        
+    color: #f23a02;                         
+    background-color: #2025ff;       
+}
